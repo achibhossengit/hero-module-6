@@ -36,7 +36,6 @@
 }
 
 
-
 /* nav styles */
 nav{
     display: flex;
@@ -99,6 +98,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 
 
 /* about style */
@@ -120,4 +122,25 @@ main{
 }
 .item-title{
     color: #474747;
+}
+
+/* skills styles */
+.skills .title-container{
+    text-align: center;
+    margin: 0 115px;
+}
+.skill-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill-card{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
